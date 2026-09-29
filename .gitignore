@@ -1,0 +1,22 @@
+# Cloud Enablers & Non-Local Installers
+cloud_enablers/
+*.exe
+
+# Python Virtual Environment & Caches
+venv/
+ENV/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local uploads & temporary runtime files
+uploads/*
+!uploads/.gitkeep
+
+# IDE & OS Metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
